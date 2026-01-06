@@ -1,0 +1,77 @@
+<html>
+<meta charset="UTF-8" viewport="width=device-width, initial-scale=1.0"/>
+<head>
+    <link rel="stylesheet" href="design2.css">
+    <title>SIGNUP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Winky Rough:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+        <div class="top">
+            <img class="toppng" src="toppng.png">
+        </div>
+        <form action="/signup" method="post">
+            <p class="title">SIGN UP</p>
+            <div class="input-fields-column">
+                <div class="form-group">
+                    <div class="name">
+                        <label for="username">Name:</label>
+                        <input type="text" class="input" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="email">
+                        <label for="email">Email:</label>
+                        <input type="text" class="input" name="email" placeholder="@gmail.com" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="surname">
+                        <label for="surname">Surname:</label>
+                        <input type="text" class="input" name="surname" placeholder="Enter your surname" required>
+                    </div>
+                    <div class="number">
+                        <label for="number">Mobile number:</label>
+                        <input type="text" class="input" name="number" placeholder="Enter mobile number" required>
+                    </div>
+                </div>
+            </div>
+            <div class="input-fields-row">
+                <div class="bday-group">
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="birthday">
+                </div>
+                <div class="gender-group">
+                    <label id="gender">Gender:</label>
+                    <div class="radio-options">
+                        <span class="radio-choices"><input type="radio" id="gender-female" name="gender" value="female" class="radio">
+                        <label for="gender-female" class="radio-label">Female</label></span>
+
+                        <span class="radio-choices"> <input type="radio" id="gender-male" name="gender" value="male" class="radio">
+                        <label for="gender-male" class="radio-label">Male</label></span>
+
+                        <span class="radio-choices"><input type="radio" id="gender-custom" name="gender" value="custom" class="radio">
+                        <label for="gender-custom" class="radio-label">Prefer not to say</label></span>
+                    </div>
+                </div>
+            </div>
+            <div class="input-fields-row">
+                <div class="password-group">
+                    <div class="password">
+                        <label for="password">Password:</label>
+                        <input type="password" class="input" name="password" placeholder="Create your password" required>
+                    </div>
+                    <div class="confirm-password">
+                        <label for="confirm-password">Confirm password:</label>
+                        <input type="password" class="input" name="confirm-password" placeholder="Confirm your password" required>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button type="submit" class="btn"><span class="front">SIGN UP</span></button>
+                <span><a href="../../Vet clinic project/LoginForm/loginform.html" class="bk2login">Already have an account?</a></span>
+            </div>
+        </form>
+    </div>
+<img class="doghead" src="doghead.avif">
+<img class="cathead" src="cathead.png">
+</body>
+</html>

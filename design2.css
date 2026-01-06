@@ -1,0 +1,259 @@
+body {
+    background-color: rgb(241, 241, 241);
+    margin: 0;
+    background-image: url(bg2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 0 0;
+}
+
+.page {
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toppng {
+    width: 600px;
+    z-index: 10;
+    margin-bottom: 27.5px;
+}
+
+.doghead {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 30vw;
+    height: 30vw;
+    z-index: -1;
+}
+
+.cathead {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 13vw;
+    height: 27vw;
+    z-index: -1;
+}
+
+.title {
+    font-family: monospace;
+    font-size: 23px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+form {
+    background-color: white;
+    padding: 20px 30px;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: -102px;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.37);
+    border-radius: 12px;
+    font-family: calibri;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.input-fields-row {
+    width: 100%;
+    margin: 0;
+}
+
+.input-fields-column {
+    display: flex;
+    flex-direction: start;
+    width: 100%;
+    gap: 15px;
+}
+
+.form-group {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.name input, .email input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+.surname input, .number input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+div.form-group label {
+    margin-left: 2px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+
+.bday-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.bday-group input {
+    width: 100%;
+    padding: 10px 10px 10px 27px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 3px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.bday-group label {
+    margin-left: 2px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.664);
+    margin-top: 5px;
+}
+
+.gender-group {
+    width: 100%;
+}
+
+.radio-options {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio-choices {
+    display: flex;
+    width: 28%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+.radio {
+    margin-left: 0;
+}
+
+#gender {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+.gender-group label {
+    transform: translateY(1px);
+    margin-left: 2px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+
+.password-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.password-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    margin-bottom: 13px;
+    font-size: 13px;
+}
+
+.password, .confirm-password {
+    width: 100%;
+}
+
+.password label, .confirm-password label {
+    margin-left: 2px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 6px;
+}
+
+.btn {
+    background-color: #4f5b80;
+    width: 100%;
+    height: 37.5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.front {
+    display: block;
+    background-color: #8497cf;
+    width: 100%;
+    border-radius: 5px;
+    padding:10px 0;
+    transform: translateY(-6px);
+    font-family: calibri;
+    font-size: 15px;
+}
+
+.front:hover {
+    background-color: #7a88be;
+}
+
+.front:active {
+    transform: translateY(-1px);
+    transition-duration: 0.1s;
+}
+
+.bk2login {
+    text-decoration: none;
+    color: #686868;
+    font-family: monospace;
+    font-size: 13px;
+}
+
+.bk2login:hover {
+    text-decoration: underline;
+    text-decoration-color: #686868;
+}
